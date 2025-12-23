@@ -69,15 +69,9 @@ The project benchmarks four distinct architectures to identify the most effectiv
 
 | Model | Performance Summary |
 | --- | --- |
-| **Random Forest** | <br>**Winner:** Achieved the highest accuracy with an **** and the lowest RMSE.
-
- |
-| **Linear Regression / SVM** | <br>**Strong Baselines:** Both maintained an ****, indicating strong linear correlations in traffic patterns.
-
- |
-| **LSTM** | <br>**Underperformed:** Showed surprisingly low  and high loss, likely due to the dataset size being insufficient for deep learning requirements.
-
- |
+| **Random Forest** | <br>**Winner:** Achieved the highest accuracy with an $R^2 \approx 0.78$ and the lowest RMSE.
+| **Linear Regression / SVM** | <br>**Strong Baselines:** Both maintained an  $R^2 \approx 0.70$, indicating strong linear correlations in traffic patterns.
+| **LSTM** | <br>**Underperformed:** Showed surprisingly low $R^2$ and high loss, likely due to the dataset size being insufficient for deep learning requirements.
 
 ## Key Takeaway
 
