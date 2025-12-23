@@ -27,7 +27,7 @@ The **Paris Traffic Predictive Congestion System** is a machine learning project
 * **Scope:** Focused on a strategic subset of **10 high-density arcs** (including the Champs-Élysées and Boulevard Voltaire) to ensure high data quality and model reliability.
 
 
-* **Target Variable:** **Occupancy Rate ()**, representing the percentage of time a road sensor is covered by a vehicle.
+* **Target Variable:** **Occupancy Rate ($k$)**, representing the percentage of time a road sensor is covered by a vehicle.
 
 
 
@@ -35,13 +35,13 @@ The **Paris Traffic Predictive Congestion System** is a machine learning project
 
 To address data quality issues and improve predictive power, several preprocessing steps were implemented:
 
-* **Missing Data Handling:** Used **KNN Imputation ()** to reconstruct missing sensor readings based on spatial neighbors.
+* **Missing Data Handling:** Used **KNN Imputation ($k=5$)** to reconstruct missing sensor readings based on spatial neighbors.
 
 
 * **Feature Engineering:** * **Temporal Features:** Created features for hour of the day and day of the week to capture traffic seasonality.
 
 
-* **Lag Features:** Integrated historical "lags" () to provide models with the context of the previous hour's traffic.
+* **Lag Features:** Integrated historical "lags" ($k_{t-1}$) to provide models with the context of the previous hour's traffic.
 
 
 * **Spatial Encoding:** Utilised One-Hot Encoding for unique Arc IDs to differentiate specific street segments.
