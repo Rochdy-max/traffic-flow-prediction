@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Paris Traffic Predictive Congestion System** is a machine learning project designed to forecast traffic congestion in Paris by predicting the **Occupancy Rate ()** one hour in advance. The project transitions from simple linear baselines to advanced ensemble methods to provide actionable insights for proactive urban mobility management.
+The **Paris Traffic Predictive Congestion System** is a machine learning project designed to forecast traffic congestion in Paris by predicting the **Occupancy Rate ($k$)** one hour in advance. The project transitions from simple linear baselines to advanced ensemble methods to provide actionable insights for proactive urban mobility management.
 
 ## Authors
 
