@@ -12,7 +12,6 @@ The **Paris Traffic Predictive Congestion System** is a machine learning project
 * **Rochdy BACHABI** 
 
 
-* **Gabriel MENDES** 
 
 
 
